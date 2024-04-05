@@ -31,4 +31,4 @@ jobs:
       - run: npm ci
         name: Install Modules form npm
       - run: npm run build
-        name: Build
+        name: Build the Applications
