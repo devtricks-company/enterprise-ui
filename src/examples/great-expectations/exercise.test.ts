@@ -53,7 +53,7 @@ describe('Kanban Board', () => {
     const board = new KanbanBoard('Things to Do');
     expect.hasAssertions();
     // Use board.removeStatus to remove a status.
-    board.removeStatus();
+    board.removeStatus('');
 
     // You can be clever or you can just assume "Backlog" is in board.statuses
     // by default.
